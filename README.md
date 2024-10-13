@@ -1,5 +1,3 @@
-Alpha AI Assistant README
-Overview
 Welcome to Alpha, your Another Learning Powered Human Aid! Alpha is designed to assist you with a variety of tasks, from answering questions to helping you manage your schedule. With its advanced natural language processing capabilities, Alpha aims to enhance your productivity and streamline your daily activities.
 
 Features
