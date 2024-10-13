@@ -1,0 +1,11 @@
+{
+    "interface": "Ethernet",
+    "new_ip": "192.168.1.100",
+    "subnet_mask": "255.255.255.0",
+    "gateway": "192.168.1.1",
+    "proxy_list": [
+        "http://proxy1.com:8080",
+        "http://proxy2.com:8080",
+        "http://proxy3.com:8080"
+    ]
+}
