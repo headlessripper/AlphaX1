@@ -42,18 +42,18 @@ Fork the repository.
 Create a new branch:
 bash
 Copy code
-git checkout -b feature-branch-name
+git checkout -b AlphaX1
 Make your changes and commit them:
 bash
 Copy code
-git commit -m "Description of changes"
+git commit -m "Alpha AI"
 Push to your branch:
 bash
 Copy code
-git push origin feature-branch-name
+git push AlphaX1
 Open a pull request.
 Support
-For any issues or questions, please open an issue in the repository or contact support at support@example.com.
+For any issues or questions, please open an issue in the repository or contact support at alphaaidx@gmail.com.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
