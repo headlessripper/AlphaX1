@@ -13,7 +13,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/alpha-ai.git
+git clone https://github.com/headlessripper/AlphaX1.git
 Navigate to the project directory:
 bash
 Copy code
