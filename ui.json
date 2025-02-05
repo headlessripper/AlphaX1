@@ -1,0 +1,85 @@
+{
+    "ui_elements": [
+      {
+        "name": "Search Bar",
+        "type": "QLineEdit",
+        "properties": {
+          "placeholderText": "Enter search query...",
+          "styleSheet": "padding: 10px; font-size: 14px; border-radius: 5px; color: #FFFFFF;"
+        },
+        "description": "Text field for entering search queries."
+      },
+      {
+        "name": "Search Button",
+        "type": "QPushButton",
+        "properties": {
+          "text": "Search",
+          "styleSheet": "background-color: #FFFFFF; color: #000000; padding: 10px; border-radius: 5px;"
+        },
+        "description": "Button to trigger the search action.",
+        "action": "perform_search"
+      },
+      {
+        "name": "Text Browser",
+        "type": "QTextBrowser",
+        "properties": {
+          "openExternalLinks": true,
+          "font": "Arial, 12px",
+          "styleSheet": "padding: 10px; background-color: #2f2f2f; border-radius: 5px; color: #E0E0E0;"
+        },
+        "description": "Displays search results or messages."
+      },
+      {
+        "name": "Time Label",
+        "type": "QLabel",
+        "properties": {
+          "font": "Courier New, 25px",
+          "alignment": "center",
+          "styleSheet": "color: #ffffff; padding: 10px;"
+        },
+        "description": "Shows the current time."
+      },
+      {
+        "name": "Power Label",
+        "type": "QLabel",
+        "properties": {
+          "font": "Courier New, 12px",
+          "alignment": "center",
+          "styleSheet": "color: #ffffff; padding: 10px;"
+        },
+        "description": "Shows system power consumption details."
+      },
+      {
+        "name": "Dark Mode Toggle Button",
+        "type": "QPushButton",
+        "properties": {
+          "icon": "background/icons8-moon-30.png",
+          "styleSheet": "background-color: #ffffff; color: #E0E0E0; padding: 10px; border-radius: 5px;"
+        },
+        "description": "Button to toggle between dark and light mode.",
+        "action": "toggle_dark_mode"
+      }
+    ],
+    "layout": {
+      "type": "QGridLayout",
+      "contentsMargins": "20, 20, 20, 20",
+      "spacing": "15",
+      "elements": [
+        {"widget": "Search Bar", "position": "0, 0, 1, 2"},
+        {"widget": "Search Button", "position": "0, 2"},
+        {"widget": "Text Browser", "position": "1, 0, 1, 3"},
+        {"widget": "Time Label", "position": "2, 0, 1, 3"},
+        {"widget": "Power Label", "position": "3, 0, 1, 3"},
+        {"widget": "Dark Mode Toggle Button", "position": "4, 0, 1, 3", "alignment": "center"}
+      ]
+    },
+    "actions": {
+      "perform_search": "Triggered when the search button is clicked.",
+      "toggle_dark_mode": "Toggles between dark and light mode."
+    },
+    "stylesheets": {
+      "dark_mode": "QWidget { background-color: #000000; color: #ffffff; } QPushButton { background-color: #000000; color: #d3d3d3; border: none; padding: 15px; border-radius: 10px; } QPushButton:hover { background-color: #000000 ; } QPushButton:pressed { background-color: #000000; }",
+      "light_mode": "QWidget { background-color: #ff0000; color: #ffffff; } QPushButton { background-color: #DDDDDD; color: #000000; border-radius: 5px; padding: 10px; } QPushButton:hover { background-color: #CCCCCC; }"
+    }
+  }
+  
